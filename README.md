@@ -1,11 +1,12 @@
 # toy-robot-simulator
 
-Implementation for toy robot test by ruby. \n
+Implementation for toy robot test by ruby. 
+
 Test with rspec.
 
 
 
-Overveiw
+Overveiw :
   I think there are 4 main objects to solve this problem.
    robot: A class storing current positon info of itself.
    table: A class storing the table info. (5X5 units) 
@@ -26,11 +27,11 @@ Overveiw
 
   After the actions are completed, we print current position info of the robot.
   
-Usage
+Usage:
   Start: 1. bundle install 
          2.bin/toy-robot
   test: rspec spec
   
   
-What need to improve
+What need to improve:
   I did not have much time on this test, so I completed it in a hurry. Some error exception rescue and logger should be added. So that when user input an invalid command they can get more understandable error msg and the developer could take advantage of the log file to debug. 
