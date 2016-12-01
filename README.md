@@ -1,6 +1,6 @@
 # toy-robot-simulator
 
-Implementation for toy robot test by ruby.
+Implementation for toy robot test by ruby. \n
 Test with rspec.
 
 
